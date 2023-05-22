@@ -1,0 +1,24 @@
+{
+    "packages": [
+      {
+        "id":1,
+        "name": "INDIA",
+      
+        "price": "$150",
+        "image": "images\\india.png"
+
+      },
+      {
+        "id":2,
+        "name": "ITALY",
+        
+        "price": "$250",
+        "image": "images\\italy.png"
+      },
+      {
+        "id":3,
+        "name": "UNITED KINGDOM",
+        
+        "price": "$345",
+        "image": "images\\uk.png"
+      }]}

@@ -194,7 +194,50 @@
 
 
 /* Section Packages Start */
+
+#img{
+    height:400px;
+    width: 600px;
+    border-radius: 50px;
+}
+#atc{
+    margin-bottom: 30px;
+    background-color:#ffa500;
+    border-color: #ffa500;
+}
+
+/* #img:hover{
+   
+    transform: scale(1.1);
+} */
 .main-txt h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+}
+.main-txt h1 span{
+    color: #ffa500;
+}
+#h2{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+}
+#h2 span{
+    color: #ffa500;
+}
+h3{
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+}
+p #p1{
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+}
+
+/* .main-txt h1{
     text-align: center;
     margin-top: 30px;
     font-weight: 600;
@@ -236,7 +279,7 @@
     background: #ffa500;
     color: white;
     border-radius: 5px;
-}
+} */
 /* Section Packages End */
 
 
