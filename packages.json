@@ -4,7 +4,7 @@
         "id":1,
         "name": "INDIA",
       
-        "price": "$150",
+        "price": "150000",
         "image": "images\\india.png"
 
       },
@@ -12,13 +12,13 @@
         "id":2,
         "name": "ITALY",
         
-        "price": "$250",
+        "price": "250000",
         "image": "images\\italy.png"
       },
       {
         "id":3,
         "name": "UNITED KINGDOM",
         
-        "price": "$345",
+        "price": "345000",
         "image": "images\\uk.png"
       }]}

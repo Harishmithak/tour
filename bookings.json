@@ -1,0 +1,40 @@
+{
+  "Bookings": [
+    {
+      "destination": "india",
+      "members": "3",
+      "email": "kharishmitha@gmail.com",
+      "arrivaldate": "2023-05-09",
+      "leavingdate": "2023-05-05",
+      "details": "yurgh",
+      "id": 2
+    },
+    {
+      "destination": "india",
+      "members": "3",
+      "email": "kharish@gmail.com",
+      "arrivaldate": "2023-05-05",
+      "leavingdate": "2023-05-03",
+      "details": "dfgfgh",
+      "id": 3
+    },
+    {
+      "destination": "india",
+      "members": "3",
+      "email": "kharishmitha@gmail.com",
+      "arrivaldate": "2023-05-26",
+      "leavingdate": "2023-05-27",
+      "details": "fdgfh",
+      "id": 4
+    },
+    {
+      "destination": "india",
+      "members": "3",
+      "email": "kharishmitha@gmail.com",
+      "arrivaldate": "2023-06-01",
+      "leavingdate": "2023-06-10",
+      "details": "harishmitha",
+      "id": 5
+    }
+  ]
+}
