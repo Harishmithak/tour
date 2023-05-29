@@ -1,25 +1,4 @@
 
-// Example starter JavaScript for disabling form submissions if there are invalid fields
-(function () {
-  'use strict'
-
-  // Fetch all the forms we want to apply custom Bootstrap validation styles to
-  var forms = document.querySelectorAll('.needs-validation')
-
-  // Loop over them and prevent submission
-  Array.prototype.slice.call(forms)
-    .forEach(function (form) {
-      form.addEventListener('submit', function (event) {
-        if (!form.checkValidity()) {
-          event.preventDefault()
-          event.stopPropagation()
-        }
-
-        form.classList.add('was-validated')
-      }, false)
-    })
-})()
-
 
 $(document).ready(function () {
   // Fetch cake data from the JSON file
@@ -28,7 +7,7 @@ $(document).ready(function () {
 
 
     $.each(data.packages, function (index, item) {
-      var packages = $('<div class="item"></div>');
+      var packages = $('<div class="item col-3"></div>');
       packages.append('<img src="' + item.image + '" alt="' + item.name + '" id="img"> ');
       packages.append('<h3 id="ca1">' + item.name + '</h3>');
       packages.append('<h3 id="p1">Price: &#x20b9;' + item.price + '</h3>');
@@ -39,6 +18,7 @@ $(document).ready(function () {
 
   });
 });
+
 // $(document).ready(function () {
 //   $('#bookingform').validate({
 //     rules: {
@@ -75,7 +55,10 @@ function writeBookings() {
   const arrivalDate = document.getElementById("arrivaldate").value;
   const leavingDate = document.getElementById("leavingdate").value;
   const details = document.getElementById("details").value;
+
+
   const xhttp = new XMLHttpRequest();
+
   xhttp.open("POST", "http://localhost:3000/Bookings");
   xhttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
   xhttp.send(
@@ -93,3 +76,25 @@ function writeBookings() {
  
 
 }
+
+
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+ (function () {
+'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
