@@ -1,119 +1,124 @@
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Website</title>
-    <link rel="icon" type="image/x-icon" href="/images/download (1).png">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-
-      
-
-    <!-- Bootstrap Link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- Bootstrap Link -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Website</title>
+  <link rel="icon" type="image/x-icon" href="/images/download (1).png">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 
-    <!-- Font Awesome Cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <!-- Font Awesome Cdn -->
+
+  <!-- Bootstrap Link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Bootstrap Link -->
 
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <!-- Google Fonts -->
+  <!-- Font Awesome Cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <!-- Font Awesome Cdn -->
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
   <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
   <script src="/script.js"></script>
-  
+
 </head>
+
 <body>
-    
 
 
 
 
 
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg" id="navbar">
-        <div class="container">
-          <a class="navbar-brand" href="index.html" id="logo"><span>T</span>ravel</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-            <span><i class="fa-solid fa-bars"></i></span>
-          </button>
-          <div class="collapse navbar-collapse" id="mynavbar">
-            <ul class="navbar-nav me-auto">
-              <li class="nav-item">
-                <a class="nav-link active" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#book">Book</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#packages">Packages</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#services">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#gallary">Gallary</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-             
-            </ul>
-            <!-- <form class="d-flex">
+
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-lg" id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html" id="logo"><span>T</span>ravel</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span><i class="fa-solid fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#book">Book</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#packages">Packages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallary">Gallary</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+
+        </ul>
+        <!-- <form class="d-flex">
               <input class="form-control me-2" type="text" placeholder="Search">
               <button class="btn btn-primary" type="button">Search</button>
             </form> -->
-          </div>
-        </div>
-      </nav>
-    <!-- Navbar End -->
-
-
-
-
-
-    <!-- Home Section Start -->
-    <div class="home">
-        <div class="content">
-            <h5>Welcome To World</h5>
-            <h1>Visit <span class="changecontent"></span></h1>
-            <p>Adventure is out there</p>
-             <!-- <a href="#book">book now</a>   -->
-        </div>
+      </div>
     </div>
-    <!-- Home Section End -->
+  </nav>
+  <!-- Navbar End -->
 
 
-    <!-- Section Book Start -->
-    <section class="book" id="book">
-      <div class="container">
 
-        <div class="main-text">
-          <h1><span>B</span>ook</h1>
-        </div>
-        
-        <div class="row">
 
-          <div class="col-md-6 py-3 py-md-0">
-            <div class="card">
-              <img src="./images/book-img.png" alt="">
-            </div>
+
+  <!-- Home Section Start -->
+  <div class="home">
+    <div class="content">
+      <h5>Welcome To World</h5>
+      <h1>Visit <span class="changecontent"></span></h1>
+      <p>Adventure is out there</p>
+      <!-- <a href="#book">book now</a>   -->
+    </div>
+  </div>
+  <!-- Home Section End -->
+
+
+  <!-- Section Book Start -->
+  <section class="book" id="book">
+    <div class="container">
+
+      <div class="main-text">
+        <h1><span>B</span>ook</h1>
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-6 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/book-img.png" alt="">
           </div>
+        </div>
 
-          <div class="col-md-6 py-3 py-md-0">
-         
-          
-<section id="sec">
-             <form action="#" id="bookingform" class="needs-validation was-validated" onsubmit="writeBookings()">
+        <div class="col-md-6 py-3 py-md-0">
+
+
+          <section id="sec">
+
+            <form action="#" id="bookingform" class="needs-validation was-validated" onsubmit="writeBookings()">
+
               <select name="destination" id="destination" class="form-control" required>
                 <option value="">Select your destination</option>
                 <option value="INDIA">INDIA</option>
@@ -124,284 +129,323 @@
                 <option value="AUSTRALIA">AUSTRALIA</option>
                 <option value="ANTARCTICA">ANTARCTICA</option>
                 <option value="FRANCE">FRANCE</option>
-
-                <!-- Add more options as needed -->
+                <!-- Add more options as needed -->  
               </select><BR>
-              
+
+              <select name="members" id="members" class="form-control" required>
+                <option value="">Select number of members</option>
+                <!-- Generate dropdown options from 1 to 200 -->
+                <script>
+                  for (var i = 1; i <= 200; i++) {
+                    document.write("<option value='" + i + "'>" + i + "</option>");
+                  }
+                </script>
+              </select><br>
+
+
+              <input type="text" name="email" id="email" class="form-control" placeholder="Enter your email address"
+                required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"><br>
+
+
+
               <!-- <input type="text" name="destination" id="destination"class="form-control" placeholder="Enter your destination" required><br> -->
-              <input type="text" name="members" id="members"class="form-control" placeholder="How Many members" required><br>
-              <input type="text" name="email" id="email"class="form-control" placeholder="Enter your email address" required><br>
+              <!-- <input type="text" name="members" id="members"class="form-control" placeholder="How Many members" required><br> -->
+              <!-- <input type="text" name="email" id="email"class="form-control" placeholder="Enter your email address" required><br> -->
+
+
               <label for="arrivaldate">Arrival Date:</label>
-              <input type="date" name="arrivalDate" id="arrivaldate"class="form-control" placeholder="Arrival date" required><br>
+              <input type="date" name="arrivalDate" id="arrivaldate" class="form-control" placeholder="Arrival date"
+                required oninput="validateDate()"><br>
+              <span id="dateError" style="color: red; display: none;">Arrival date should be greater than the current
+                date.</span>
+
+              <script>
+                function validateDate() {
+                  var arrivalDateInput = document.getElementById("arrivaldate");
+                  var selectedDate = new Date(arrivalDateInput.value);
+                  var currentDate = new Date();
+
+                  if (selectedDate <= currentDate) {
+                    document.getElementById("dateError").style.display = "inline";
+                    arrivalDateInput.setCustomValidity("Arrival date should be greater than the current date.");
+                  } else {
+                    document.getElementById("dateError").style.display = "none";
+                    arrivalDateInput.setCustomValidity("");
+                  }
+                }
+              </script>
+
+              <!-- <input type="date" name="arrivalDate" id="arrivaldate"class="form-control" placeholder="Arrival date" required><br> -->
               <label for="leavingdate">Leaving Date:</label>
-              <input type="date" name="leavingDate" id="leavingdate"class="form-control" placeholder="Leaving date" required><br>
-          
-              <textarea class="form-control" rows="3"id="details" name="details" placeholder="Enter Your Name & Details"></textarea>
-              <button type="submit" value="Book Now" id="bbtn" class="btn btn-primary"required>Book now</button>
+              <input type="date" name="leavingDate" id="leavingdate" class="form-control" placeholder="Leaving date"
+                required><br>
 
-            </form>  
-          </div>
+              <textarea class="form-control" rows="3" id="details" name="details"
+                placeholder="Enter Your Name & Details"></textarea>
+              <button type="submit" value="Book Now" id="bbtn" class="btn btn-primary" required>Book now</button>
 
+            </form>
         </div>
+
+      </div>
+  </section>
+  </section>
+
+  <!-- Section Book End -->
+
+
+  <!-- Section Packages Start -->
+
+
+  <main>
+
+    <section id="home1">
+
+      <section id="packages"><br>
+        <h2 style="padding-left: 0px;" id="h2"><span>P</span>ACKAGES</h2><br>
+        <div class="container-fluid">
+          <div class="row col-1 col-xl-12  justify-content-center mx-0 mx-xl-5 "  id="specials-container"></div>
+        </div>
+
       </section>
-    </section>
-      
-    <!-- Section Book End -->
-
-
-
-    <!-- Section Packages Start -->
-
-
-    <main>
-
-      <section id="home1">
-      
-        <section id="packages"><br>
-          <h2 style="padding-left: 0px;" id="h2"><span>P</span>ACKAGES</h2><br>
-          <div class="container-fluid"> <div class="row" style="padding-left: 100px;" id="specials-container"></div></div>
-         
-        </section>
-   </div>
-   </div>
-      </section>
-      </main>
-    
-
-   
-    <!-- Section Packages End -->
-
-
-
-    <!-- Section Services Start -->
-    <section class="services" id="services">
-      <div class="container">
-
-        <div class="main-txt">
-          <h1><span>S</span>ervices</h1>
-        </div>
-
-        <div class="row" style="margin-top: 30px;">
-
-          <div class="col-md-4 py-3 py-md-0">
-
-            <div class="card">
-              <i class="fas fa-hotel"></i>
-              <div class="card-body">
-                <h3>Affordable Hotel</h3>
-                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p> -->
-              </div>
-            </div>
-
-          </div>
-          <div class="col-md-4 py-3 py-md-0">
-
-            <div class="card">
-              <i class="fas fa-utensils"></i>
-              <div class="card-body">
-                <h3>Food & Drinks</h3>
-                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p> -->
-              </div>
-            </div>
-
-          </div>
-          <div class="col-md-4 py-3 py-md-0">
-
-            <div class="card">
-              <i class="fas fa-bullhorn"></i>
-              <div class="card-body">
-                <h3>Safety Guide</h3>
-                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p> -->
-              </div>
-            </div>
-
-          </div>
-
-
-
-        </div>
-
-
-        <div class="row" style="margin-top: 30px;">
-
-          <div class="col-md-4 py-3 py-md-0">
-
-            <div class="card">
-              <i class="fas fa-globe-asia"></i>
-              <div class="card-body">
-                <h3>Around The World</h3>
-                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p> -->
-              </div>
-            </div>
-
-          </div>
-          <div class="col-md-4 py-3 py-md-0">
-
-            <div class="card">
-              <i class="fas fa-plane"></i>
-              <div class="card-body">
-                <h3>Fastest Travel</h3>
-                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p> -->
-              </div>
-            </div>
-
-          </div>
-          <div class="col-md-4 py-3 py-md-0">
-
-            <div class="card">
-              <i class="fas fa-hiking"></i>
-              <div class="card-body">
-                <h3>Adventures</h3>
-                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p> -->
-              </div>
-            </div>
-
-          </div>
-
-
-
-        </div>
-
+      </div>
       </div>
     </section>
-    <!-- Section Services End -->
+  </main> 
 
 
 
+  <!-- Section Packages End -->
 
-    <!-- Section Gallary Start -->
-    <section class="gallary" id="gallary">
-      <div class="container">
 
-        <div class="main-txt">
-          <h1><span>G</span>allary</h1>
+
+  <!-- Section Services Start -->
+
+  <section class="services" id="services">
+    <div class="container">
+
+      <div class="main-txt">
+        <h1><span>S</span>ervices</h1>
+      </div>
+
+      <div class="row" style="margin-top: 30px;">
+
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <i class="fas fa-hotel"></i>
+            <div class="card-body">
+              <h3>Affordable Hotel</h3>
+              <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p> -->
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <i class="fas fa-utensils"></i>
+            <div class="card-body">
+              <h3>Food & Drinks</h3>
+              <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p> -->
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <i class="fas fa-bullhorn"></i>
+            <div class="card-body">
+              <h3>Safety Guide</h3>
+              <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p> -->
+            </div>
+          </div>
+
         </div>
 
-        <div class="row" style="margin-top: 30px;">
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card">
-              <img src="./images/g1.png" alt="" height="230px">
-            </div>
-          </div>
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card">
-              <img src="./images/g2.png" alt="" height="230px">
-            </div>
-          </div>
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card">
-              <img src="./images/g3.png" alt="" height="230px">
-            </div>
-          </div>
-        </div>
-
-
-        <div class="row" style="margin-top: 30px;">
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card">
-              <img src="./images/g4.png" alt="" height="230px">
-            </div>
-          </div>
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card">
-              <img src="./images/g5.png" alt="" height="230px">
-            </div>
-          </div>
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card">
-              <img src="./images/g6.png" alt="" height="230px">
-            </div>
-          </div>
-        </div>
-
-
-        <div class="row" style="margin-top: 30px;">
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card">
-              <img src="./images/IG.jpg" alt="" height="230px">
-            </div>
-          </div>
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card">
-              <img src="./images/IG2.jpg" alt="" height="230px">
-            </div>
-          </div>
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card">
-              <img src="./images/IG4.jpg" alt="" height="230px">
-            </div>
-          </div>
-        </div>
 
 
       </div>
-    </section>
-    <!-- Section Gallary End -->
 
 
+      <div class="row" style="margin-top: 30px;">
 
+        <div class="col-md-4 py-3 py-md-0">
 
-
-
-
-    <!-- About Start -->
-    <section class="about" id="about">
-      <div class="container">
-
-        <div class="main-txt">
-          <h1>About <span>Us</span></h1>
-        </div>
-
-        <div class="row" style="margin-top: 50px;">
-
-          <div class="col-md-6 py-3 py-md-0">
-            <div class="card">
-              <img src="./images/about-img.png" alt="">
+          <div class="card">
+             <i class="fas fa-globe-asia"></i> 
+            <div class="card-body">
+              <h3>Around The World</h3>
+              <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p> -->
             </div>
           </div>
 
-          <div class="col-md-6 py-3 py-md-0">
-            <h2>How Travel Agency Work</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident perferendis dolorem, numquam earum at nam beatae voluptate natus consectetur facere, saepe cupiditate ut exercitationem deserunt, facilis quam perspiciatis autem iure illo harum minima. Quas, vitae aperiam laudantium alias asperiores nulla rerum, nihil eveniet perferendis sint illum accusamus officiis aliquam nam.</p>
-            <button id="about-btn">Read More...</button>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <i class="fa-sharp fa-solid fa-plane-departure"></i>
+            <!-- <i class="fas fa-plane"></i> -->
+            <div class="card-body">
+              <h3>Fastest Travel</h3>
+              <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p> -->
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <i class="fas fa-hiking"></i>
+            <div class="card-body">
+              <h3>Adventures</h3>
+              <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p> -->
+            </div>
           </div>
 
         </div>
 
+
+
       </div>
-    </section>
-    <!-- About End -->
+
+    </div>
+  </section>
+  <!-- Section Services End -->
 
 
 
 
+  <!-- Section Gallary Start -->
+  <section class="gallary" id="gallary">
+    <div class="container">
 
-
-
-
-    <!-- Footer Start -->
-    <footer id="footer">
-      <h1><span>T</span>ravel</h1>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus fugiat, ipsa quos nulla qui alias.</p>
-      <div class="social-links">
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-youtube"></i>
-        <i class="fa-brands fa-pinterest-p"></i>
+      <div class="main-txt">
+        <h1><span>G</span>allary</h1>
       </div>
-      <div class="credit">
-        <p>Designed By <a href="#">HARISHMITHA</a></p>
-      </div>
-      <div class="copyright">
-        <p>&copy;Copyright . All Rights Reserved</p>
-      </div>
-    </footer>
-    <!-- Footer End -->
 
-     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/g1.png" alt="" height="230px">
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/g2.png" alt="" height="230px">
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/g3.png" alt="" height="230px">
+          </div>
+        </div>
+      </div>
 
-    
+
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/g4.png" alt="" height="230px">
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/g5.png" alt="" height="230px">
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/g6.png" alt="" height="230px">
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/IG.jpg" alt="" height="230px">
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/IG2.jpg" alt="" height="230px">
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/IG4.jpg" alt="" height="230px">
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+  <!-- Section Gallary End -->
+
+
+  <!-- About Start -->
+  <section class="about" id="about">
+    <div class="container">
+
+      <div class="main-txt">
+        <h1>About <span>Us</span></h1>
+      </div>
+
+      <div class="row" style="margin-top: 50px;">
+
+        <div class="col-md-6 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/about-img.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-md-6 py-3 py-md-0">
+          <h2>How Travel Agency Work</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident perferendis dolorem, numquam earum at
+            nam beatae voluptate natus consectetur facere, saepe cupiditate ut exercitationem deserunt, facilis quam
+            perspiciatis autem iure illo harum minima. Quas, vitae aperiam laudantium alias asperiores nulla rerum,
+            nihil eveniet perferendis sint illum accusamus officiis aliquam nam.</p>
+          <button id="about-btn">Read More...</button>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- About End -->
+
+
+
+  <!-- Footer Start -->
+  <footer id="footer">
+    <h1><span>T</span>ravel</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus fugiat, ipsa quos nulla qui alias.</p>
+    <div class="social-links">
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+    </div>
+    <div class="credit">
+      <p>Designed By <a href="#">HARISHMITHA</a></p>
+    </div>
+    <div class="copyright">
+      <p>&copy;Copyright . All Rights Reserved</p>
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
 </body>
+
 </html>
