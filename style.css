@@ -20,7 +20,7 @@
     margin-bottom: 5px;
 }
 #logo span{
-    color: #11100f;
+    color:  #ffa500;
 }
 .navbar-toggler span{
     color: #cde211;
@@ -486,7 +486,13 @@ p #p1{
     transform: scale(1.1);
 }
 /* Section Gallary End */
-
+.services .card:hover{
+    transform: scale(1.1);
+}
+.services .card{
+    border-radius: 10px;
+    transition: 0.5s;
+}
 
 
 

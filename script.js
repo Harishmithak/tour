@@ -73,6 +73,10 @@ function writeBookings() {
     })
   );
   console.log("success");
+
+    // Add your code here to handle form submission and show the confirmation box
+    alert("Form submitted successfully!"); // Example confirmation message
+  
  
 
 }

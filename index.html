@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-    
+      
 
     <!-- Bootstrap Link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -114,12 +114,28 @@
           
 <section id="sec">
              <form action="#" id="bookingform" class="needs-validation was-validated" onsubmit="writeBookings()">
+              <select name="destination" id="destination" class="form-control" required>
+                <option value="">Select your destination</option>
+                <option value="INDIA">INDIA</option>
+                <option value="PAKISTAN">PAKISTAN</option>
+                <option value="ITALY">ITALY</option>
+                <option value="US">US</option>
+                <option value="UK">UK</option>
+                <option value="AUSTRALIA">AUSTRALIA</option>
+                <option value="ANTARCTICA">ANTARCTICA</option>
+                <option value="FRANCE">FRANCE</option>
 
-              <input type="text" name="destination" id="destination"class="form-control" placeholder="Enter your destination" required><br>
+                <!-- Add more options as needed -->
+              </select><BR>
+              
+              <!-- <input type="text" name="destination" id="destination"class="form-control" placeholder="Enter your destination" required><br> -->
               <input type="text" name="members" id="members"class="form-control" placeholder="How Many members" required><br>
               <input type="text" name="email" id="email"class="form-control" placeholder="Enter your email address" required><br>
-              <input type="date" name="arrivalDate" id="arrivaldate"class="form-control" placeholder="Arrivals" required><br>
-              <input type="date" name="leavingDate" id="leavingdate"class="form-control" placeholder="Leaving" required><br>
+              <label for="arrivaldate">Arrival Date:</label>
+              <input type="date" name="arrivalDate" id="arrivaldate"class="form-control" placeholder="Arrival date" required><br>
+              <label for="leavingdate">Leaving Date:</label>
+              <input type="date" name="leavingDate" id="leavingdate"class="form-control" placeholder="Leaving date" required><br>
+          
               <textarea class="form-control" rows="3"id="details" name="details" placeholder="Enter Your Name & Details"></textarea>
               <button type="submit" value="Book Now" id="bbtn" class="btn btn-primary"required>Book now</button>
 
@@ -129,17 +145,13 @@
         </div>
       </section>
     </section>
-
-   
       
     <!-- Section Book End -->
 
 
 
-
     <!-- Section Packages Start -->
 
-   
 
     <main>
 
@@ -158,10 +170,6 @@
 
    
     <!-- Section Packages End -->
-
-
-
-
 
 
 
@@ -305,6 +313,26 @@
             </div>
           </div>
         </div>
+
+
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/IG.jpg" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/IG2.jpg" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/IG4.jpg" alt="" height="230px">
+            </div>
+          </div>
+        </div>
+
 
       </div>
     </section>

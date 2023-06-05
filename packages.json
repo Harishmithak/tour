@@ -28,4 +28,32 @@
         
         "price": "400000",
         "image": "images\\pakistan.png"
+      },
+      {
+        "id":5,
+        "name": "US",
+        
+        "price": "445000",
+        "image": "images\\us.png"
+      },
+      {
+        "id":6,
+        "name": "FRANCE",
+        
+        "price": "545000",
+        "image": "images\\france.png"
+      },
+      {
+        "id":7,
+        "name": "AUSTRALIA",
+        
+        "price": "544500",
+        "image": "images\\aus.jpg"
+      },
+      {
+        "id":7,
+        "name": "ANTARCTICA",
+        
+        "price": "256500",
+        "image": "images\\ant.jpg"
       }]}
