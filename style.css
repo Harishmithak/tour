@@ -324,7 +324,7 @@ p #p1{
   }
   
   /* Media queries for screens smaller than 576px */
-  @media (max-width: 576px) {
+  /* @media (max-width: 576px) {
     #img {
       height: 200px;
       width: 300px;
@@ -350,7 +350,7 @@ p #p1{
     #h2 {
       margin-top: 10px;
     }
-  } */
+  } */ 
 
 /* @media (max-width: 600px) {
     #img {
@@ -573,3 +573,12 @@ p #p1{
     background: #ffa500;
 }
 /* Footer End */
+body{
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 1440px) {
+    #home1{
+      overflow: hidden;
+    }
+  }

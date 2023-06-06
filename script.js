@@ -7,11 +7,11 @@ $(document).ready(function () {
 
 
     $.each(data.packages, function (index, item) {
-      var packages = $('<div class="item col-3"></div>');
+      var packages = $('<div class="item col-xl-3 col-12 col-md-5" ></div>');
       packages.append('<img src="' + item.image + '" alt="' + item.name + '" id="img"> ');
-      packages.append('<h3 id="ca1">' + item.name + '</h3>');
-      packages.append('<h3 id="p1">Price: &#x20b9;' + item.price + '</h3>');
-      packages.append('<a href="#sec"><button type="button" class="btn btn-success" id="atc" >BOOK NOW</button></a>')
+      packages.append('<h3 id="ca1" style="margin-left:60px ;font-family:Cursive; font-size: 15px;padding:2px";>' + item.name + '</h3>');
+      packages.append('<h3 id="p1" style="margin-left:40px ; font-size: 15px;padding:2px">Price: &#x20b9;' + item.price + '</h3>');
+      packages.append('<a href="#sec" style="margin-left:40px"><button type="button" class="btn btn-success" id="atc" >BOOK NOW</button></a>')
       specialsContainer.append(packages);
     });
 
@@ -102,3 +102,4 @@ function writeBookings() {
       }, false)
     })
 })()
+
